@@ -1,0 +1,294 @@
+{
+  "branch": "CSE",
+  "semester": "3",
+  "timetable": {
+      "Monday": [
+          {
+              "time": "9:00-9:55",
+              "subject": "DAA",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "10:00-10:55",
+              "subject": "DCM",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "OOAD",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "OOAD Lab",
+              "type": "Lab",
+              "location": "AC LAB [VL] R14",
+              "subBatches": [
+                  "B1"
+              ]
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "NW LAB [SN] R17",
+              "subBatches": [
+                  "B2"
+              ]
+          },
+          {
+              "time": "3:00-3:55",
+              "subject": "DCM Lab",
+              "type": "Lab",
+              "location": "DSL LAB [GS] R7",
+              "subBatches": [
+                  "B3"
+              ]
+          },
+          {
+              "time": "4:00-4:55",
+              "subject": "T-SSPE",
+              "type": "Tutorial",
+              "location": "A1+A2",
+              "subBatches": [
+                  "B1",
+                  "B2"
+              ]
+          }
+      ],
+      "Tuesday": [
+          {
+              "time": "9:00-9:55",
+              "subject": "DAA",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "10:00-10:55",
+              "subject": "FOL",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DC",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "12:00-12:55",
+              "subject": "SSPE",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "OOAD Lab",
+              "type": "Lab",
+              "location": "CSD LAB [VK] R14",
+              "subBatches": [
+                  "B2"
+              ]
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "NW LAB [DRN] R17",
+              "subBatches": [
+                  "B4"
+              ]
+          },
+          {
+              "time": "3:00-3:55",
+              "subject": "DCM Lab",
+              "type": "Lab",
+              "location": "DSL LAB [MA] R7",
+              "subBatches": [
+                  "B1"
+              ]
+          },
+          {
+              "time": "4:00-4:55",
+              "subject": "TW Lab",
+              "type": "Lab",
+              "location": "CDS LAB A2 [NN] R11",
+              "subBatches": [
+                  "B3"
+              ]
+          }
+      ],
+      "Wednesday": [
+          {
+              "time": "9:00-9:55",
+              "subject": "OOAD",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "10:00-10:55",
+              "subject": "DAA",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "AC LAB [VL] R16",
+              "subBatches": [
+                  "B1"
+              ]
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "NW LAB [DRN] R2",
+              "subBatches": [
+                  "B2"
+              ]
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "SD LAB [SN] R5",
+              "subBatches": [
+                  "B3"
+              ]
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "CDS LAB [AKT] R27",
+              "subBatches": [
+                  "B4"
+              ]
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "SSPE",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "3:00-3:55",
+              "subject": "DCM",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          }
+      ],
+      "Thursday": [
+          {
+              "time": "9:00-9:55",
+              "subject": "DC",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "10:00-10:55",
+              "subject": "FOL",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "AC LAB [VK] R14",
+              "subBatches": [
+                  "B3"
+              ]
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "NW LAB [AKT] R17",
+              "subBatches": [
+                  "B4"
+              ]
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "OOAD Lab",
+              "type": "Lab",
+              "location": "AC LAB [VK] R14",
+              "subBatches": [
+                  "B4"
+              ]
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "DAA Lab",
+              "type": "Lab",
+              "location": "NW LAB [VL] R17",
+              "subBatches": [
+                  "B3"
+              ]
+          },
+          {
+              "time": "3:00-3:55",
+              "subject": "DCM Lab",
+              "type": "Lab",
+              "location": "DSL LAB [GS] R7",
+              "subBatches": [
+                  "B2"
+              ]
+          },
+          {
+              "time": "4:00-4:55",
+              "subject": "T-SSPE",
+              "type": "Tutorial",
+              "location": "A3+A4",
+              "subBatches": [
+                  "B3",
+                  "B4"
+              ]
+          }
+      ],
+      "Friday": [
+          {
+              "time": "9:00-9:55",
+              "subject": "OOAD",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "10:00-10:55",
+              "subject": "TW",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "11:00-11:55",
+              "subject": "DCM",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "12:00-12:55",
+              "subject": "FOL",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "2:00-2:55",
+              "subject": "SSPE",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          },
+          {
+              "time": "3:00-3:55",
+              "subject": "DC",
+              "type": "Lecture",
+              "location": "VLTC L107"
+          }
+      ]
+  }
+}

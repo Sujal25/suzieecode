@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply dark:bg-deep-900 dark:text-light-100 bg-white text-deep-900 font-inter;
+}
+
+.glass {
+  @apply bg-white/10 dark:bg-deep-800/60 backdrop-blur-md border border-white/10 dark:border-white/10 shadow-xl;
+}
