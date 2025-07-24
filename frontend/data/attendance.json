@@ -1,0 +1,45 @@
+{
+  "attendance": {
+    "2025-07-21": {
+      "9:00-9:55": {
+        "subject": "DAA",
+        "type": "Lecture",
+        "status": "present",
+        "location": "VLTC L107"
+      },
+      "10:00-10:55": {
+        "subject": "DCM",
+        "type": "Lecture",
+        "status": "present",
+        "location": "VLTC L107"
+      },
+      "11:00-11:55": {
+        "subject": "OOAD",
+        "type": "Lecture",
+        "status": "absent",
+        "location": "VLTC L107"
+      },
+      "2:00-2:55": {
+        "subject": "OOAD Lab",
+        "type": "Lab",
+        "status": "present",
+        "location": "AC LAB [VL] R14",
+        "subBatch": "B1"
+      },
+      "3:00-3:55": {
+        "subject": "DCM Lab",
+        "type": "Lab",
+        "status": "present",
+        "location": "DSL LAB [GS] R7",
+        "subBatch": "B3"
+      },
+      "4:00-4:55": {
+        "subject": "T-SSPE",
+        "type": "Tutorial",
+        "status": "present",
+        "location": "A1+A2",
+        "subBatch": "B1"
+      }
+    }
+  }
+}

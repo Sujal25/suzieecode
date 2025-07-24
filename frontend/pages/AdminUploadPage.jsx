@@ -5,10 +5,12 @@ export default function AdminUploadPage() {
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [error, setError] = useState('');
+  const [uploaded, setUploaded] = useState(false);
 
   const handleFile = async (e) => {
     setError('');
     setPreview(null);
+    setUploaded(false);
     const f = e.target.files[0];
     setFile(f);
     if (!f) return;
@@ -23,6 +25,11 @@ export default function AdminUploadPage() {
     } catch (err) {
       setError('Invalid JSON file.');
     }
+  };
+
+  const handleUpload = () => {
+    setUploaded(true);
+    // In a real app, send preview/file to backend here
   };
 
   return (
@@ -47,9 +54,20 @@ export default function AdminUploadPage() {
         />
         {error && <div className="text-red-400 text-sm">{error}</div>}
         {preview && (
-          <div className="w-full max-h-64 overflow-auto bg-deep-800 rounded-xl p-4 mt-2 text-xs text-light-100">
-            <pre>{JSON.stringify(preview, null, 2)}</pre>
-          </div>
+          <>
+            <div className="w-full max-h-64 overflow-auto bg-deep-800 rounded-xl p-4 mt-2 text-xs text-light-100">
+              <pre>{JSON.stringify(preview, null, 2)}</pre>
+            </div>
+            <button
+              className="mt-4 bg-accent-600 hover:bg-accent-700 text-white font-bold py-2 px-6 rounded-xl shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent-500"
+              onClick={handleUpload}
+            >
+              Upload
+            </button>
+          </>
+        )}
+        {uploaded && (
+          <div className="text-green-400 text-sm font-semibold mt-2">Timetable uploaded successfully! (Simulated)</div>
         )}
       </motion.div>
     </div>
