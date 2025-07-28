@@ -14,16 +14,16 @@ export default {
       },
       colors: {
         primary: {
-          50: '#f0f9ff',
-          100: '#dff2fe',
-          200: '#b8e6fe',
-          300: '#74d4ff',
-          400: '#00bcff',
-          500: '#00a6f4',
-          600: '#0084d1',
-          700: '#0069a8',
-          800: '#00598a',
-          900: '#024a70',
+          50: '#f5f3ff',
+          100: '#ede9fe',
+          200: '#ddd6fe',
+          300: '#c4b5fd',
+          400: '#a78bfa',
+          500: '#8b5cf6',
+          600: '#7c3aed',
+          700: '#6d28d9',
+          800: '#5b21b6',
+          900: '#4c1d95',
         },
         accent: {
           500: '#a78bfa', // purple-400
@@ -31,8 +31,8 @@ export default {
           700: '#7c3aed', // purple-600
         },
         deep: {
-          900: '#0a1124', // deep blue
-          800: '#1e293b', // slate-800
+          900: '#18122B', // deep purple
+          800: '#2D1E4A', // dark purple
         },
         light: {
           100: '#f3f4f6', // gray-100

@@ -1,0 +1,4 @@
+Server running on port 5001
+Health check: http://localhost:5001/api/health
+MongoDB Connected: localhost
+MongoDB connected successfully
